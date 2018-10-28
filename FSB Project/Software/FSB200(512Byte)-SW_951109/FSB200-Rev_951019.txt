@@ -1,0 +1,14 @@
+
+*******************************************************************************************************************
+951013:
+	- Bug removed:
+		_ Function Flash_Page_Size() was added to check page size of flash.
+		- Function Set_Page_Size() changes flash page size back to 528 bytes if necessary.
+
+
+*******************************************************************************************************************
+951019:
+	- External crystal was removed:
+		- Internal 8 Mhz clock is now used instead of external 16 Mhz clock.
+		_ Register TCCR1B was changed from 0x01 to 0x09 (i.e, fast PWM was used instead of phase correct PWM at the same frequency (32kHz)).
+		- Resister SPSR was changed to 0x01 and SPCR to 0x50. This way the speed of reading from flash or micro SD is in consistent with the speed of playing music.

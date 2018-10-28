@@ -1,0 +1,112 @@
+*******************************************************************************************************************
+951029:
+	- Inputs are assumed merely active low, code is written accordingly.
+
+
+*******************************************************************************************************************
+951030:
+	- Program tick and DAC both now use timer1/counter1.
+
+*******************************************************************************************************************
+
+951103:
+	- Bug removed
+	   - The noisy sound in the oputput was get rid off by shortening the program.
+
+*******************************************************************************************************************
+
+951103:
+	- Board is modified to work with musics of 16kHz sampling rate (rather than 32kHz)
+	   - Music must be generated using the Matlab interface (which would produce music with 16kHz sampling rate).
+	   - Function Flash_Page_Read() now reads half a page of AT45DB (rather than the entire page). Music is upsampled in this function as well.
+	   - Page tick is shortened again, it is now 450*1/(32kHz).
+	   - Extra album one and two are now defined in the Music_Pages.h.
+	   - Push buttons are modified so that if held together, album changes (no LED is used any further for changing album)	
+
+
+*******************************************************************************************************************
+
+951124:
+	- Trigger signal is given a higher priority compared to OVL and DOB signals. This way 
+	  if DOB or OVL comes while the elevator is in trigger mode, the signals are ignored.
+	   - The corresponding don't care bits in General.h, the definition of input signal detection function are
+	     also modified.	
+
+*******************************************************************************************************************
+
+951125:
+	- ALB Mode port has been removed, emergency signal is now read from PC2.
+
+*******************************************************************************************************************
+
+951128:
+	- Lots of globals are now defined as local variables to Main.cpp in Main.h
+	- Bug removed:
+	   - All the if loops in Floor_Finder() are removed, no need to check for FLOOR state in this function.
+	   - floor_elevation_flag is only set when there is a change in floor number, otherwise it may be zero in many unwanted situations. 
+
+*******************************************************************************************************************
+
+951203:
+	- Location of each message and music in the flash memory is now derived from the corresponding bytes in the first page of flash.
+	  Function Page_Extraction() reads the first page of AT45DB321E, extracts the bytes of this page, and saves them in E2PROM. The
+	  addresses in EEPROM start from 0x04 and ends at 0xA7 (total of 160 bytes).
+
+*******************************************************************************************************************
+
+951208:
+	- Test mode is added to the software which allows QC of the board without having to listen to every single sound of the board.
+
+*******************************************************************************************************************
+
+951210:
+	- Learn mode is added to the software which allows adapting the input signals to the logical levels of DOB and TRG.
+
+*******************************************************************************************************************
+
+951215:
+	- This version is a template software adapted to the hardware of FSB200a.
+	  This software should not be used with FSB200b hardware.
+
+*******************************************************************************************************************
+
+951225:
+	- Some bugs regarding floor declarations are removed.
+
+*******************************************************************************************************************
+
+950114:
+	- IO_Module is separated from the remainder of the software.
+
+*******************************************************************************************************************
+
+950114:
+	- I2C is added to the software.
+	- FSB300 and FSB310 platforms are detected based on the pull-down resistor at PB0. 
+
+
+*******************************************************************************************************************
+
+950114:
+	- Emergency port in FSB300 is once again back to port C.
+
+
+*******************************************************************************************************************
+
+950202:
+	- For complete use of the 150 files that can be defined on the memory, we need to read 600 bytes from the memory
+	  to form the page_address matrix. Reading consecutive pages is enforced in the Page_Address_Extraction() function.
+
+
+*******************************************************************************************************************
+
+950207:
+	- Music ciphering and deciphering is now added to the board.
+
+
+*******************************************************************************************************************
+
+950510:
+	- Test mode is now entered by pushing the test buttom and is exited by pushing it again.
+	- Album mode is entered by pressing both keys, albums are changed by pressing either key, and we can 
+	  exit album mode by pressing both keys once again.

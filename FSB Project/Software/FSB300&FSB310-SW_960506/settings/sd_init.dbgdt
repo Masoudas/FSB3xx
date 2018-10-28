@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log/>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>980</ColumnWidth1><ColumnWidth2>261</ColumnWidth2><ColumnWidth3>65</ColumnWidth3></Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>158</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        <PreferedWindows>
+          
+          
+          
+          
+        <Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows>
+        
+        
+      <MixedMode>1</MixedMode><CodeCovShow>0</CodeCovShow></Disassembly>
+    </Static>
+    <Windows>
+      
+      
+    <Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-1487-28419</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-964-28429</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3><Wnd4>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-12236-28422</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>sd_init</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd4><Wnd5><Tabs><Tab><Identity>TabID-13149-2656</Identity><TabName>Disassembly</TabName><Factory>Disassembly</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd5></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>C:\Users\Majidkhan\Desktop\Masoud\FSB Project\Test Software for Old Hardware\FSB300-SW_960120\I2C_ACK_NACK_Generation.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>14374</SelStart><SelEnd>14374</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Users\Majidkhan\Desktop\Masoud\FSB Project\Test Software for Old Hardware\FSB300-SW_960120\I2C_ACK_NACK_Generation.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>1242</SelStart><SelEnd>1242</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Users\Majidkhan\Desktop\Masoud\FSB Project\Test Software for Old Hardware\FSB300-SW_960120\General.h</Filename><XPos>0</XPos><YPos>91</YPos><SelStart>5741</SelStart><SelEnd>5741</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Users\Majidkhan\Desktop\Masoud\FSB Project\Test Software for Old Hardware\FSB300-SW_960120\I2C_Protocol.c</Filename><XPos>0</XPos><YPos>244</YPos><SelStart>10622</SelStart><SelEnd>10622</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Users\Majidkhan\Desktop\Masoud\FSB Project\Test Software for Old Hardware\FSB300-SW_960120\I2C_Protocol.h</Filename><XPos>0</XPos><YPos>132</YPos><SelStart>8370</SelStart><SelEnd>8370</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Users\Majidkhan\Desktop\Masoud\FSB Project\Test Software for Old Hardware\FSB300-SW_960120\Main.h</Filename><XPos>0</XPos><YPos>56</YPos><SelStart>3070</SelStart><SelEnd>3070</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Users\Majidkhan\Desktop\Masoud\FSB Project\Test Software for Old Hardware\FSB300-SW_960120\Learn_Mode.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>788</SelStart><SelEnd>858</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Users\Majidkhan\Desktop\Masoud\FSB Project\Test Software for Old Hardware\FSB300-SW_960120\AT45DB321E_Setup.h</Filename><XPos>0</XPos><YPos>40</YPos><SelStart>2021</SelStart><SelEnd>2021</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Users\Majidkhan\Desktop\Masoud\FSB Project\Test Software for Old Hardware\FSB300-SW_960120\EEPROM_Secure_Read.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>1566</SelStart><SelEnd>1566</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Users\Majidkhan\Desktop\Masoud\FSB Project\Test Software for Old Hardware\FSB300-SW_960120\EEPROM_Secure_Read.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>1680</SelStart><SelEnd>1680</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Users\Majidkhan\Desktop\Masoud\FSB Project\Test Software for Old Hardware\FSB300-SW_960120\AT45DB321E_Setup.c</Filename><XPos>0</XPos><YPos>102</YPos><SelStart>3894</SelStart><SelEnd>3894</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Users\Majidkhan\Desktop\Masoud\FSB Project\Test Software for Old Hardware\FSB300-SW_960120\Main.cpp</Filename><XPos>0</XPos><YPos>118</YPos><SelStart>6479</SelStart><SelEnd>6479</SelEnd></Tab><ActiveTab>11</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>C:\Users\Majidkhan\Desktop\Masoud\FSB Project\Test Software for Old Hardware\FSB300-SW_960120\Test_Mode.c</Filename><XPos>0</XPos><YPos>33</YPos><SelStart>1788</SelStart><SelEnd>1788</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Users\Majidkhan\Desktop\Masoud\FSB Project\Test Software for Old Hardware\FSB300-SW_960120\Test_Mode.h</Filename><XPos>0</XPos><YPos>18</YPos><SelStart>1297</SelStart><SelEnd>1297</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Users\Majidkhan\Desktop\Masoud\FSB Project\Test Software for Old Hardware\FSB300-SW_960120\IO_Module.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>15763</SelStart><SelEnd>15763</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Users\Majidkhan\Desktop\Masoud\FSB Project\Test Software for Old Hardware\FSB300-SW_960120\IO_Module.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>1018</SelStart><SelEnd>1018</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00320580><key>iaridepm.enu1</key></Toolbar-00320580><Toolbar-05c95f30><key>debuggergui.enu1</key></Toolbar-05c95f30></Sizes></Row0></Top><Left><Row0><Sizes><Wnd4><Rect><Top>-2</Top><Left>-2</Left><Bottom>537</Bottom><Right>232</Right><x>-2</x><y>-2</y><xscreen>234</xscreen><yscreen>238</yscreen><sizeHorzCX>146250</sizeHorzCX><sizeHorzCY>290954</sizeHorzCY><sizeVertCX>146250</sizeVertCX><sizeVertCY>658924</sizeVertCY></Rect></Wnd4></Sizes></Row0></Left><Right><Row0><Sizes><Wnd5><Rect><Top>-2</Top><Left>-2</Left><Bottom>537</Bottom><Right>198</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>125000</sizeHorzCX><sizeHorzCY>244499</sizeHorzCY><sizeVertCX>125000</sizeVertCX><sizeVertCY>658924</sizeVertCY></Rect></Wnd5></Sizes></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>236</Bottom><Right>1602</Right><x>-2</x><y>-2</y><xscreen>1604</xscreen><yscreen>238</yscreen><sizeHorzCX>1002500</sizeHorzCX><sizeHorzCY>290954</sizeHorzCY><sizeVertCX>146250</sizeVertCX><sizeVertCY>290954</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+

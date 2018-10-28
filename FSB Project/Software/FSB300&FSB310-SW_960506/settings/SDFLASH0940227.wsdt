@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>sd_init/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>203</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Find-in-Files>
+        
+        
+        
+      <ColumnWidth0>470</ColumnWidth0><ColumnWidth1>67</ColumnWidth1><ColumnWidth2>806</ColumnWidth2></Find-in-Files>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>980</ColumnWidth1><ColumnWidth2>261</ColumnWidth2><ColumnWidth3>65</ColumnWidth3></Build>
+    </Static>
+    <Windows>
+      
+      
+    <Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-4020-19216</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>sd_init</ExpandedNode><ExpandedNode>sd_init/main.cpp</ExpandedNode></NodeDict></Session>
+          </Tab>
+        <Tab>
+            <Identity>TabID-27027-16719</Identity>
+            <TabName>Find in Files</TabName>
+            <Factory>Find-in-Files</Factory>
+            <Session/>
+          </Tab><Tab>
+            <Identity>TabID-12662-20468</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab></Tabs>
+        
+      <SelectedTab>2</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>D:\Rasouli\1-Projects\1-FSB\3-FSB200y(SD+flash)\Firmware\Digital Volume\SD and FLASH\FSB200_IAR940227\main.cpp</Filename><XPos>0</XPos><YPos>746</YPos><SelStart>29661</SelStart><SelEnd>29661</SelEnd></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>D:\Rasouli\1-Projects\1-FSB\3-FSB200y(SD+flash)\Firmware\Digital Volume\SD and FLASH\FSB200_IAR940227\general.h</Filename><XPos>0</XPos><YPos>90</YPos><SelStart>2282</SelStart><SelEnd>2282</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>D:\Rasouli\1-Projects\1-FSB\3-FSB200y(SD+flash)\Firmware\Digital Volume\SD and FLASH\FSB200_IAR940227\dataflash.h</Filename><XPos>0</XPos><YPos>15</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>D:\Rasouli\1-Projects\1-FSB\3-FSB200y(SD+flash)\Firmware\Digital Volume\SD and FLASH\FSB200_IAR940227\dataflash.c</Filename><XPos>0</XPos><YPos>39</YPos><SelStart>1221</SelStart><SelEnd>1221</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>D:\Rasouli\1-Projects\1-FSB\3-FSB200y(SD+flash)\Firmware\Digital Volume\SD and FLASH\FSB200_IAR940227\sound.h</Filename><XPos>0</XPos><YPos>93</YPos><SelStart>4255</SelStart><SelEnd>4255</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>D:\Rasouli\1-Projects\1-FSB\3-FSB200y(SD+flash)\Firmware\Digital Volume\SD and FLASH\FSB200_IAR940227\ports_init.h</Filename><XPos>0</XPos><YPos>47</YPos><SelStart>1684</SelStart><SelEnd>1684</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-01bec3b8><key>iaridepm.enu1</key></Toolbar-01bec3b8></Sizes></Row0></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>641</Bottom><Right>277</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>-2147483648</sizeHorzCX><sizeHorzCY>-2147483648</sizeHorzCY><sizeVertCX>-2147483648</sizeVertCX><sizeVertCY>-2147483648</sizeVertCY></Rect></Wnd1></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes/></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2119057616</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Obj\dataflash.r90</file>
+      <file>$PROJ_DIR$\FAT_fun.c</file>
+      <file>$PROJ_DIR$\Debug\Exe\FSB100930411.hex</file>
+      <file>$PROJ_DIR$\dataflash.c</file>
+      <file>$PROJ_DIR$\dataflash.h</file>
+      <file>$PROJ_DIR$\general.h</file>
+      <file>$PROJ_DIR$\main.cpp</file>
+      <file>$PROJ_DIR$\ports_init.h</file>
+      <file>$PROJ_DIR$\SD_fun.c</file>
+      <file>$PROJ_DIR$\sound.h</file>
+      <file>$PROJ_DIR$\spifunc.c</file>
+      <file>$PROJ_DIR$\spifunc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\FAT_fun.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\inputs_check.pbi</file>
+      <file>$PROJ_DIR$\FAT_fun.h</file>
+      <file>$TOOLKIT_DIR$\inc\iom8.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\SD_fun.r90</file>
+      <file>$PROJ_DIR$\Debug\Exe\sd_init3.hex</file>
+      <file>$PROJ_DIR$\inputs_check.c</file>
+      <file>$TOOLKIT_DIR$\inc\inavr.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\SD_fun.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
+      <file>$TOOLKIT_DIR$\src\template\cfg1soim.xcl</file>
+      <file>$PROJ_DIR$\SD_fun.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\sd_init5.hex</file>
+      <file>$PROJ_DIR$\Debug\Obj\sd_init.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\spifunc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\inputs_check.r90</file>
+      <file>$PROJ_DIR$\Debug\Exe\fsb200a-940816.hex</file>
+      <file>$PROJ_DIR$\Debug\Obj\spifunc.r90</file>
+      <file>$PROJ_DIR$\Debug\Exe\sd_init4.hex</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r90</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dlAVR-1s-ec_mul-n.r90</file>
+      <file>$PROJ_DIR$\Debug\Exe\sd_init6.hex</file>
+      <file>$PROJ_DIR$\Debug\Exe\sd_ini2t.hex</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\fsb200a-940227.hex</file>
+      <file>$PROJ_DIR$\Debug\Exe\sd_init.hex</file>
+      <file>$PROJ_DIR$\Debug\Obj\dataflash.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\FAT_fun.pbi</file>
+      <file>$PROJ_DIR$\inputs_check.h</file>
+      <file>$TOOLKIT_DIR$\inc\ioavr.h</file>
+      <file>$TOOLKIT_DIR$\src\template\cfgm8.xcl</file>
+      <file>$PROJ_DIR$\Debug\Exe\FSB100930411_2.hex</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\FAT_fun.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 12</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42 15 21 19 36 23 14 5</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 42 15 21 19 36 23 14 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\FSB100930411.hex</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 43 22 12 16 28 32 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\dataflash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 0</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 5 19 36 42 15 21 9 11</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 4 5 19 36 42 15 21 9 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19 36 42 15 21 23 5 7 41 14 4 11</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 19 36 42 15 21 23 5 7 41 14 4 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\SD_fun.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 16</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 19 36 42 15 21 5 11</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 23 19 36 42 15 21 5 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\spifunc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 19 36 42 15 21</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 11 19 36 42 15 21</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\sd_init3.hex</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 43 22 12 16 28 32 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\inputs_check.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19 36 42 15 21 5 7 41</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 19 36 42 15 21 5 7 41</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\sd_init5.hex</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 43 22 12 16 28 32 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\sd_init.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 40 20 39 26 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\fsb200a-940816.hex</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 43 22 12 16 0 32 30 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\sd_init4.hex</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 43 22 12 16 28 32 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\sd_init6.hex</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 43 22 12 16 0 32 30 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\sd_ini2t.hex</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 43 22 12 16 28 32 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\fsb200a-940227.hex</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 43 22 12 16 0 32 30 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\sd_init.hex</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 43 22 12 16 28 32 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\FSB100930411_2.hex</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 43 22 12 16 28 32 33</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

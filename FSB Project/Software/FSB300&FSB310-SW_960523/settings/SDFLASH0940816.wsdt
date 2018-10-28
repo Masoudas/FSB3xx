@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>sd_init/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>1499</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Find-in-Files</Factory></Window></Windows></PreferedWindows></Workspace>
+      <Find-in-Files>
+        
+        
+        
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><ColumnWidth0>538</ColumnWidth0><ColumnWidth1>67</ColumnWidth1><ColumnWidth2>806</ColumnWidth2></Find-in-Files>
+      <Build>
+        
+        
+        
+        
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Find-in-Files</Factory></Window><Window><Factory>Workspace</Factory></Window></Windows></PreferedWindows><ColumnWidth0>18</ColumnWidth0><ColumnWidth1>1157</ColumnWidth1><ColumnWidth2>30</ColumnWidth2><ColumnWidth3>77</ColumnWidth3></Build>
+    <SourceBrowser><PreferedWindows><Position>1</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Workspace</Factory></Window></Windows></PreferedWindows></SourceBrowser><TerminalIO/><Debug-Log><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Workspace</Factory></Window></Windows></PreferedWindows></Debug-Log></Static>
+    <Windows>
+      
+    <Wnd1><Tabs><Tab><Identity>TabID-3766-18855</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab><Tab><Identity>TabID-12902-4970</Identity><TabName>Workspace</TabName><Factory>Workspace</Factory><Session><NodeDict><ExpandedNode>sd_init</ExpandedNode></NodeDict></Session></Tab><Tab><Identity>TabID-6128-12056</Identity><TabName>Build</TabName><Factory>Build</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>C:\Users\Majidkhan\Dropbox\Sanic\FSB Project\Software\FSB-SW_960523\Flash_Data_Read.c</Filename><XPos>0</XPos><YPos>2</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Users\Majidkhan\Dropbox\Sanic\FSB Project\Software\FSB-SW_960523\Main.cpp</Filename><XPos>0</XPos><YPos>45</YPos><SelStart>2877</SelStart><SelEnd>2905</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Users\Majidkhan\Dropbox\Sanic\FSB Project\Software\FSB-SW_960523\I2C_Protocol.c</Filename><XPos>0</XPos><YPos>18</YPos><SelStart>1218</SelStart><SelEnd>1218</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Users\Majidkhan\Dropbox\Sanic\FSB Project\Software\FSB-SW_960523\IO_Module.c</Filename><XPos>0</XPos><YPos>49</YPos><SelStart>16677</SelStart><SelEnd>16677</SelEnd></Tab><ActiveTab>3</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00e207b8><key>iaridepm.enu1</key></Toolbar-00e207b8></Sizes></Row0></Top><Left><Row0><Sizes/></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>186</Bottom><Right>1602</Right><x>-2</x><y>-2</y><xscreen>1604</xscreen><yscreen>188</yscreen><sizeHorzCX>-2147483648</sizeHorzCX><sizeHorzCY>-2147483648</sizeHorzCY><sizeVertCX>-2147483648</sizeVertCX><sizeVertCY>-2147483648</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

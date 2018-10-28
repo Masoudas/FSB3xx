@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1828315610</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Obj\EEPROM_Secure_Read.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\EEPROM_Secure_Read.pbi</file>
+      <file>$PROJ_DIR$\Main.cpp</file>
+      <file>$PROJ_DIR$\Test_Mode.c</file>
+      <file>$PROJ_DIR$\Flash_Data_Read.c</file>
+      <file>$PROJ_DIR$\spifunc.h</file>
+      <file>$PROJ_DIR$\Learn_Mode.h</file>
+      <file>$PROJ_DIR$\Main.h</file>
+      <file>$PROJ_DIR$\I2C_ACK_NACK_Generation.c</file>
+      <file>$PROJ_DIR$\Test_Mode.h</file>
+      <file>$PROJ_DIR$\I2C_ACK_NACK_Generation.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Flash_Data_Read.h</file>
+      <file>$PROJ_DIR$\I2C_Protocol.c</file>
+      <file>$PROJ_DIR$\I2C_Protocol.h</file>
+      <file>$PROJ_DIR$\Learn_Mode.c</file>
+      <file>$PROJ_DIR$\IO_Module.c</file>
+      <file>$PROJ_DIR$\IO_Module.h</file>
+      <file>$PROJ_DIR$\EEPROM_Secure_Read.c</file>
+      <file>$PROJ_DIR$\AT45DB321E_Setup.c</file>
+      <file>$PROJ_DIR$\AT45DB321E_Setup.h</file>
+      <file>$PROJ_DIR$\EEPROM_Secure_Read.h</file>
+      <file>$PROJ_DIR$\General.h</file>
+      <file>$PROJ_DIR$\Flash_Setup.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\Flash_Setup.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\AT45DB321E_Setup.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\I2C_Protocol.pbi</file>
+      <file>$PROJ_DIR$\FAT_fun.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\I2C_Protocol.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\I2C_ACK_NACK_Generation.r90</file>
+      <file>$TOOLKIT_DIR$\src\template\cfgm8.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\Flash_Setup.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SD_fun.pbi</file>
+      <file>$PROJ_DIR$\Flash_Page_Read.h</file>
+      <file>$PROJ_DIR$\RD_SPI.c</file>
+      <file>$PROJ_DIR$\RD_SPI.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\spifunc.r90</file>
+      <file>$PROJ_DIR$\Debug\Exe\FSB-960516.hex</file>
+      <file>$PROJ_DIR$\Debug\Obj\Main.r90</file>
+      <file>$PROJ_DIR$\FAT_fun.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\FAT_fun.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\AT45DB321E_Setup.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\RD_SPI.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dlAVR-1s-ec_mul-n.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\Flash_Page_Read.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\IO_Module.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\IO_Module.r90</file>
+      <file>$PROJ_DIR$\Debug\Exe\fsb200a-940816.hex</file>
+      <file>$PROJ_DIR$\Debug\Obj\FAT_fun.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\Flash_Data_Read.pbi</file>
+      <file>$PROJ_DIR$\SD_fun.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\Flash_Page_Read.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\spifunc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Test_Mode.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\Learn_Mode.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Learn_Mode.r90</file>
+      <file>$PROJ_DIR$\SD_fun.h</file>
+      <file>$TOOLKIT_DIR$\src\template\cfg1soim.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\sd_init.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
+      <file>$TOOLKIT_DIR$\inc\ioavr.h</file>
+      <file>$TOOLKIT_DIR$\inc\inavr.h</file>
+      <file>$PROJ_DIR$\spifunc.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\I2C_ACK_NACK_Generation.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Flash_Data_Read.r90</file>
+      <file>$PROJ_DIR$\Flash_Page_Read.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\SD_fun.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\RD_SPI.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\Test_Mode.pbi</file>
+      <file>$PROJ_DIR$\Flash_Setup.h</file>
+      <file>$TOOLKIT_DIR$\inc\iom8.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Main.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62 12 61 71 60 7 10 13 21 23 15 8 18 22</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 62 12 61 71 60 7 10 13 21 23 15 8 18 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Test_Mode.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62 12 61 71 60 23 10 18</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 62 12 61 71 60 23 10 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Flash_Data_Read.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62 12 61 71 60 13 23</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 62 12 61 71 60 13 23</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\I2C_ACK_NACK_Generation.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 18 23</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 11 18 23</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\I2C_Protocol.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 11 62 12 61 71 60</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 15 11 62 12 61 71 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Learn_Mode.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61 71 60 62 12 23 7 18</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 61 71 60 62 12 23 7 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\IO_Module.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62 12 61 71 60 23 18</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 62 12 61 71 60 23 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\EEPROM_Secure_Read.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 0</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 62 12 61 71 60 22</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 23 62 12 61 71 60 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\AT45DB321E_Setup.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 21 13</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 23 21 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Flash_Setup.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 62 12 61 71 60 70 36</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 23 62 12 61 71 60 70 36</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\FAT_fun.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 49</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61 71 60 62 12 57 40 23</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 61 71 60 62 12 57 40 23</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RD_SPI.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 68</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36 62 12 61 71 60</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 36 62 12 61 71 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\FSB-960516.hex</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 31 58 26 0 65 30 29 47 56 39 54 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\fsb200a-940816.hex</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 31 58 26 0 65 30 29 47 56 39 54 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\SD_fun.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 67</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 57 62 12 61 71 60 23 6</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\sd_init.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 42 2 50 64 27 46 55 69 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\spifunc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 6 62 12 61 71 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Flash_Page_Read.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 34 13 62 12 71 60 23 36</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
